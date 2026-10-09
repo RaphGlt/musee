@@ -44,4 +44,9 @@ public class Artiste {
     public void setDateNaissance(LocalDate dateNaissance) {
         this.dateNaissance = dateNaissance;
     }
+
+    @Override
+    public String toString(){
+        return "Musee : " + nom;
+    }
 }
